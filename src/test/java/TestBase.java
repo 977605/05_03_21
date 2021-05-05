@@ -31,7 +31,6 @@ public class TestBase {
             capabilities.setCapability("enableVideo", true);
             Configuration.browserCapabilities = capabilities;
             Configuration.remote = config.remote_url();
-            //Configuration.remote = config.keyUrl();
         }
     }
 
